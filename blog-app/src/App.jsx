@@ -8,6 +8,7 @@ import Projects from './pages/Projects'
 
 import About from './pages/About'
 import Header from './components/Header'
+import Footercom from './components/Footercom'; // Ensure correct import
 
 export default function App() {
   return (
@@ -28,7 +29,7 @@ export default function App() {
         <Route path='*' element={<div>Page Not Found</div>} />
 
         </Routes>
-
+<Footercom></Footercom>
         </BrowserRouter>
   )
 }
